@@ -1,0 +1,688 @@
+{
+    "id": 1444495962,
+    "name": "MonTableau",
+    "description": "Gérez n'importe quel type de projet. Attribuez des admins, établissez des délais et suivez l'évolution de votre projet.",
+    "subscribed": true,
+    "archived": false,
+    "deleted": false,
+    "is_current_user_owner": false,
+    "board_template_id": null,
+    "syncable_entity_id": null,
+    "email": "richarb_board_1444495962_16cf12d6454706de05f0__57916908@euc1.mx.monday.com",
+    "board_discussion_email": "richarb_board-discussion_1444495962_16cf12d6454706de05f0__57916908@euc1.mx.monday.com",
+    "customizable_email": "board-1444495962@richarb.eu.monday.com",
+    "email_preference": "daily_digest",
+    "pulse_nickname": {
+        "preset_type": "task",
+        "singular": "tâche",
+        "plural": "Tâches"
+    },
+    "item_page_view_type": null,
+    "permissions": "everyone",
+    "is_allowed_to_edit": true,
+    "user_permissions": 20,
+    "user_board_actions": {
+        "create_item": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "edit_item": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_own_pulses": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_others_pulses": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "move_pulses": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_groups": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "move_groups": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "create_board_view": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "edit_board_view": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_own_board_views": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_others_board_views": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "mute_board_for_all": {
+            "can": false,
+            "reason": "permissions.reasons.action_for_board_owners_only"
+        },
+        "use_automations": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "edit_automations": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "delete_automations": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "create_post": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "edit_post_content": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "board_create_column": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "board_delete_column": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        },
+        "board_update_column_settings": {
+            "can": true,
+            "reason": {
+                "key": ""
+            }
+        }
+    },
+    "assignee_permission_column_id": null,
+    "assignee_permission_column_ids": null,
+    "is_allowed_to_delete_pulse_permanently": true,
+    "big_board_flag_enabled": null,
+    "board_kind": "public",
+    "is_private_share": false,
+    "model_type": "Board",
+    "board_data": {
+        "columns": [
+            {
+                "id": "name",
+                "title": "Nom",
+                "type": "name",
+                "width": 348
+            },
+            {
+                "type": "multiple-person",
+                "title": "Admin",
+                "id": "project_owner",
+                "settings": {
+                    "max_people_allowed": "0"
+                },
+                "description": ""
+            },
+            {
+                "type": "date",
+                "title": "Date",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "date"
+            },
+            {
+                "title": "Statut",
+                "type": "color",
+                "labels": {
+                    "0": "En cours",
+                    "1": "Fait",
+                    "2": "Bloqué",
+                    "5": "Pas commencé"
+                },
+                "id": "project_status",
+                "width": 134,
+                "labels_positions_v2": {
+                    "0": 1,
+                    "1": 0,
+                    "2": 2,
+                    "5": 3
+                },
+                "settings": {
+                    "done_colors": [
+                        1
+                    ],
+                    "color_mapping": {
+                        "8": 11,
+                        "11": 8
+                    }
+                }
+            },
+            {
+                "type": "color",
+                "title": "Statut 1",
+                "id": "statut_1",
+                "labels": {
+                    "0": "En cours",
+                    "1": "Fait",
+                    "2": "Bloqué"
+                }
+            },
+            {
+                "type": "text",
+                "title": "Texte",
+                "id": "texte"
+            },
+            {
+                "type": "color",
+                "title": "Statut 2",
+                "id": "statut_2",
+                "labels": {
+                    "0": "En cours",
+                    "1": "Fait",
+                    "2": "Bloqué"
+                }
+            },
+            {
+                "type": "color",
+                "title": "Priority",
+                "settings": {
+                    "done_colors": [
+                        1
+                    ],
+                    "color_mapping": {
+                        "0": 109,
+                        "2": 7,
+                        "3": 10,
+                        "4": 110,
+                        "7": 2,
+                        "10": 3,
+                        "14": 0,
+                        "104": 4,
+                        "109": 14,
+                        "110": 104
+                    }
+                },
+                "labels": {
+                    "0": "Medium",
+                    "2": "Low",
+                    "3": "Critical ⚠️️",
+                    "4": "High"
+                },
+                "labels_positions_v2": {
+                    "0": 2,
+                    "2": 3,
+                    "3": 0,
+                    "4": 1,
+                    "5": 4
+                },
+                "description": "",
+                "appFeatureId": 10309355,
+                "id": "priority"
+            },
+            {
+                "type": "color",
+                "title": "Label",
+                "settings": {
+                    "done_colors": [
+                        1
+                    ],
+                    "color_mapping": {
+                        "0": 105,
+                        "2": 156,
+                        "105": 0,
+                        "156": 2
+                    }
+                },
+                "labels": {
+                    "0": "Label 1",
+                    "2": "Label 3",
+                    "3": "Label 2"
+                },
+                "labels_positions_v2": {
+                    "0": 0,
+                    "2": 2,
+                    "3": 1,
+                    "5": 3
+                },
+                "description": "",
+                "appFeatureId": 10309353,
+                "id": "label"
+            },
+            {
+                "type": "multiple-person",
+                "title": "Personnes",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "personnes"
+            },
+            {
+                "type": "doc",
+                "title": "monday Doc",
+                "id": "monday_doc"
+            },
+            {
+                "type": "numeric",
+                "title": "Chiffres",
+                "id": "chiffres"
+            },
+            {
+                "type": "timerange",
+                "title": "Échéances",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "_ch_ances"
+            },
+            {
+                "type": "date",
+                "title": "Date 1",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "date_1"
+            },
+            {
+                "type": "text",
+                "title": "Texte 1",
+                "id": "texte_1"
+            },
+            {
+                "type": "long-text",
+                "title": "Long texte",
+                "id": "long_texte"
+            },
+            {
+                "type": "color",
+                "title": "Statut 3",
+                "id": "statut_3",
+                "labels": {
+                    "0": "En cours",
+                    "1": "Fait",
+                    "2": "Bloqué"
+                }
+            },
+            {
+                "type": "dropdown",
+                "title": "Menu déroulant",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "menu_d_roulant"
+            },
+            {
+                "type": "text",
+                "title": "Texte 2",
+                "id": "texte_2"
+            },
+            {
+                "type": "date",
+                "title": "Date 2",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "date_2"
+            },
+            {
+                "type": "multiple-person",
+                "title": "Personnes 1",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "personnes_1"
+            },
+            {
+                "type": "numeric",
+                "title": "Chiffres 1",
+                "id": "chiffres_1"
+            },
+            {
+                "type": "color",
+                "title": "Statut 4",
+                "id": "statut_4",
+                "labels": {
+                    "0": "En cours",
+                    "1": "Fait",
+                    "2": "Bloqué"
+                }
+            },
+            {
+                "type": "multiple-person",
+                "title": "Personnes 2",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "personnes_2"
+            },
+            {
+                "type": "multiple-person",
+                "title": "Test colonne",
+                "settings": {
+                    "hide_footer": false
+                },
+                "id": "test_colonne"
+            }
+        ],
+        "linked_boards": [],
+        "board_tags": {},
+        "has_spp": false,
+        "pulses": [],
+        "groups_pulses_count": {
+            "new_group29179": 3,
+            "new_group43041": 0
+        },
+        "groups": [
+            {
+                "title": "Grosse pute",
+                "pos": 16384.0,
+                "color": "#a25ddc",
+                "id": "grosse_pute77549"
+            },
+            {
+                "title": "Grosse pute",
+                "pos": 32768.0,
+                "color": "#037f4c",
+                "id": "grosse_pute22089"
+            },
+            {
+                "title": "Grosse pute",
+                "pos": 65536.0,
+                "color": "#579bfc",
+                "id": "grosse_pute66080"
+            },
+            {
+                "title": "Grosse pute",
+                "pos": 131072.0,
+                "color": "#fdab3d",
+                "id": "grosse_pute"
+            },
+            {
+                "title": "Mon super groupe v3",
+                "pos": 196608.0,
+                "color": "#a25ddc",
+                "id": "mon_super_groupe_v3"
+            },
+            {
+                "title": "Mon super groupe v2",
+                "pos": 262144.0,
+                "color": "#fdab3d",
+                "id": "mon_super_groupe_v222453"
+            },
+            {
+                "title": "Mon super groupe v2",
+                "pos": 327680.0,
+                "color": "#c4c4c4",
+                "id": "mon_super_groupe_v2"
+            },
+            {
+                "title": "Mon super groupe",
+                "pos": 393216.0,
+                "color": "#e2445c",
+                "id": "mon_super_groupe"
+            },
+            {
+                "title": "Ma grosse bite",
+                "pos": 458752.0,
+                "color": "#579bfc",
+                "id": "ma_grosse_bite"
+            },
+            {
+                "title": "GROUP TEST",
+                "pos": 524288.0,
+                "color": "#037f4c",
+                "id": "group_test"
+            },
+            {
+                "title": "Nouveau groupe",
+                "color": "#e2445c",
+                "pos": 589824.0,
+                "id": "nouveau_groupe1489"
+            },
+            {
+                "title": "Nouveau groupe",
+                "color": "#a25ddc",
+                "pos": 655360.0,
+                "id": "nouveau_groupe"
+            },
+            {
+                "title": "Ce mois-ci",
+                "color": "#0086c0",
+                "pos": 720896.0,
+                "id": "new_group29179"
+            },
+            {
+                "title": "Le mois prochain",
+                "color": "#00c875",
+                "pos": 786432.0,
+                "id": "new_group43041"
+            }
+        ],
+        "subscribers": [
+            57916908,
+            57923121
+        ],
+        "direct_subscriber_ids": [
+            57916908,
+            57923121
+        ],
+        "subscribed_team_ids": [
+            13091495
+        ],
+        "members": {
+            "results": [],
+            "page": 1,
+            "next_page": 2,
+            "per_page": 25,
+            "total": 2
+        },
+        "limits": {
+            "user": 400,
+            "team": 100
+        },
+        "collapse_groups": [],
+        "collapse_columns": [],
+        "column_sync_status": {}
+    },
+    "overview_sections": {
+        "47858046": {
+            "serializers_version": "e98f5490e02a8b25e5b540ff13da4f2d",
+            "id": 47858046,
+            "entity_id": 1444495962,
+            "entity_type": "Item",
+            "name": "Container",
+            "deleted": false,
+            "type": "BoardContainerOverviewSection",
+            "data_infra_version": 1,
+            "data_infra_version_for_contracts": 1,
+            "infra_auto_upgrade": null,
+            "query": {},
+            "data_sources": [
+                {
+                    "id": 9366681,
+                    "name": null,
+                    "query": {
+                        "board_ids": [
+                            1444495962
+                        ],
+                        "extra_board_ids": [
+                            null
+                        ]
+                    },
+                    "query_type": "data_entities",
+                    "contract_type": "table_data",
+                    "additional_data": {},
+                    "state": 1,
+                    "entity_id": 1444495962,
+                    "entity_type": "Item",
+                    "data_source_pusher_channels": [
+                        "private-enc_22263056_data_source_9366681_production"
+                    ],
+                    "load_strategy": {
+                        "all": true,
+                        "eager": true,
+                        "fetch_on_filters_change": false,
+                        "fetch_on_query_change": false,
+                        "fetch_on_creation_if_missing": true,
+                        "fetch_on_settings_change": false
+                    },
+                    "serializers_version": "e98f5490e02a8b25e5b540ff13da4f2d"
+                }
+            ],
+            "created_by": 57916908,
+            "created_at": "2024-03-29T06:37:30Z",
+            "app_feature_id": null,
+            "parent_section_id": null,
+            "is_container": true,
+            "is_crossboards_data": true,
+            "is_extra_crossboards_data": false,
+            "tags": null,
+            "data_indication": null,
+            "additional_view_data": {},
+            "hide_columns_from_settings": {},
+            "config_data": {
+                "ruleBasedFilterValues": null,
+                "filter_user_ids": null,
+                "filter_team_ids": null
+            },
+            "token_data": null,
+            "section_data": {},
+            "validation_result": {
+                "settings": null
+            },
+            "notice": null,
+            "settings": {},
+            "authorized": true,
+            "client_instance_token": null
+        }
+    },
+    "created_using_recipe": null,
+    "pos": 131072.0,
+    "board_folder_id": null,
+    "video_id": null,
+    "trello_board_id": null,
+    "trello_data_imported": null,
+    "project_nickname": null,
+    "is_pulse_card_view": null,
+    "created_at": "2024-03-29T06:37:29Z",
+    "created_by": 57916908,
+    "updated_at": "2024-03-29T14:05:55Z",
+    "activity_log_token": {
+        "token": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE3Mzk0NzQsImRhdCI6eyJiaWQiOjE0NDQ0OTU5NjIsImFpZCI6MjIyNjMwNTYsInVpZCI6NTc5MTY5MDgsImhpZF9jb2xfaWRzIjpudWxsfX0.p4NOhrMnf03hjwRfIU9_Duu6vvoTBCPaAqoST9zoew0",
+        "expires_at": "2024-03-29 19:11:14 UTC"
+    },
+    "activity_log_viewed_time_sec": "1711694251",
+    "column_configurations": {
+        "date": [
+            {
+                "column_ids": [
+                    "date",
+                    "project_status"
+                ],
+                "column_configuration_id": 12379168,
+                "column_configuration_type": "deadline",
+                "column_configuration_name": null,
+                "column_configuration_semantics": null,
+                "column_configuration_meta": {
+                    "is_new_dependency": null,
+                    "mode": null
+                }
+            }
+        ],
+        "project_status": [
+            {
+                "column_ids": [
+                    "date",
+                    "project_status"
+                ],
+                "column_configuration_id": 12379168,
+                "column_configuration_type": "deadline",
+                "column_configuration_name": null,
+                "column_configuration_semantics": null,
+                "column_configuration_meta": {
+                    "is_new_dependency": null,
+                    "mode": null
+                }
+            }
+        ]
+    },
+    "deadline_notification_last_seen": null,
+    "board_views": [],
+    "board_subsets": [],
+    "workspace_id": 1591366,
+    "last_used_board_subset_id": 0,
+    "pusher_channels_names": [
+        "private-enc_22263056_board_1444495962_production",
+        "private-enc_22263056_board_wall_1444495962_production"
+    ],
+    "owner_id": 57916908,
+    "last_viewed_users": {
+        "57916908": "2024-03-29 14:11:14 +0000",
+        "57923121": "2024-03-29 13:02:02 +0000"
+    },
+    "loading_scope": null,
+    "cache": false,
+    "external_columnvalues": true,
+    "parent_board_ids": [],
+    "should_be_hidden": false,
+    "communication": null,
+    "serializers_version": "2bb3e1db2432b000531d980b8d925100",
+    "hidden_item_views": null,
+    "source_app_feature_id": 10396513,
+    "app_feature_reference_id": 10189180,
+    "column_limit": 500,
+    "linked_items_usage_percentage": 0,
+    "row_amount_usage_percentage": 0,
+    "is_solution_landing_board": true,
+    "is_main_table_as_subset": false,
+    "localized_template_data": null,
+    "read_permissions": null,
+    "pulse_view_permissions": null,
+    "app_feature_id": null,
+    "client_instance_token": null,
+    "created_from_board_id": 4709924260,
+    "system_entity": {},
+    "boards_ids_linked_by": null
+}
