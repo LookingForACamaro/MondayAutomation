@@ -1,4 +1,3 @@
-// `/boards/${this.id}/board_data?source=resetBoardAction&pulse_ids_only=true&skip_linked_boards=true&fetchParentBoardIfNeeded=true&can_board_data_extended=true`
 const columnTypes = {
     TEXT: 'text',
     STATUS: 'color',
@@ -147,3 +146,14 @@ function xhrFetch(url, method, body) {
 function getCSRFToken() {
     return document.querySelector('[name=csrf-token]').content || null
 }
+
+function AreVariablesSet(){
+    return true; // Mock
+}
+
+(function runController(){
+    if(!AreVariablesSet()){
+        showAddVariablesModal();
+    }
+    showMainModal();
+})()
